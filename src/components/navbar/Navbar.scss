@@ -1,0 +1,35 @@
+.header{    
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    background: #232536;
+    &__logo{
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 68px;
+        color: #fff;
+    }
+    a{
+        text-decoration: none;
+    }
+    &__link{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        color: #ffffff94;
+    }
+    .active{
+        color: #fff;
+    }
+    &__wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__list{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+}
